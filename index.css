@@ -1,0 +1,55 @@
+body{
+    background-color: #1f242d;
+}
+#heading{
+    text-align: center;
+    font-size: 2.7rem;
+    color: white;
+}
+#scoreboard{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+#btnsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.btn{
+    height: 12rem;
+    width: 12rem;
+    margin: 0.5rem;
+}
+.subbtnsection{
+    margin: 0.3rem;
+}
+#green{
+    background-color: green;
+    border-top-left-radius: 2rem;
+    color: green;
+}
+#red{
+    background-color: red;
+    border-bottom-left-radius: 2rem;
+    color: red;
+}
+#blue{
+    background-color: blue;
+    border-top-right-radius: 2rem;
+    color: blue;
+}
+#yellow{
+    background-color: yellow;
+    border-bottom-right-radius: 2rem;
+    color: yellow;
+}
+.animo{
+    transform: scale(1.03);
+}
+#content{
+    text-align: center;
+    color: white;
+}
